@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interpolation</title>
+  </head>
+  <body>
+
+    
+    <div id="app">
+      <h1>{{text}}</h1>
+    </div>
+
+
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+      const options = {
+        data() {
+          return {
+            text: "Hello Vue Js!!",
+          };
+        },
+      };
+
+      const App = Vue.createApp(options);
+      App.mount("#app");
+    </script>
+  </body>
+</html>
