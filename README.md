@@ -170,6 +170,11 @@ In this example, the `{{ text }}` expression will be replaced with the actual va
 ```
 [View in codes](https://github.com/kantakshay/Vue-js/blob/0fb976bc473a6e17d935a4b318e642a2dadc5f62/Interpolation/Index.html#L18C1-L29C14)
 
+*OUTPUT*
+
+        Hello Vue Js!!
+
+
 
 
 #### Types of interpolation:
