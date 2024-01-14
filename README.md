@@ -149,7 +149,7 @@ Interpolation uses the "**mustache syntax**", which involves double curly braces
     </div>
 ```
 
-https://github.com/kantakshay/Vue-js/blob/0fb976bc473a6e17d935a4b318e642a2dadc5f62/Interpolation/Index.html#L11C1-L13C11
+[View in codes](https://github.com/kantakshay/Vue-js/blob/0fb976bc473a6e17d935a4b318e642a2dadc5f62/Interpolation/Index.html#L11C1-L13C11)
 
 In this example, the `{{ text }}` expression will be replaced with the actual value of the username property defined in your **data object**.
 
@@ -168,7 +168,7 @@ In this example, the `{{ text }}` expression will be replaced with the actual va
       App.mount("#app");
     </script>
 ```
-https://github.com/kantakshay/Vue-js/blob/0fb976bc473a6e17d935a4b318e642a2dadc5f62/Interpolation/Index.html#L18C1-L29C14
+[View in codes](https://github.com/kantakshay/Vue-js/blob/0fb976bc473a6e17d935a4b318e642a2dadc5f62/Interpolation/Index.html#L18C1-L29C14)
 
 
 
