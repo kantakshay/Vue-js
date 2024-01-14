@@ -135,3 +135,66 @@ app.mount("#app");
 ```
 
 
+## InterPolation
+
+> interpolation is a powerful feature that allows you to dynamically inject data into your HTML templates.
+
+**Syntax:**
+
+Interpolation uses the "**mustache syntax**", which involves double curly braces `{{ }}`. You place these braces around an expression that references your data in the template.
+
+```HTML
+<div id="app">
+      <h1>{{text}}</h1>
+    </div>
+```
+
+https://github.com/kantakshay/Vue-js/blob/0fb976bc473a6e17d935a4b318e642a2dadc5f62/Interpolation/Index.html#L11C1-L13C11
+
+In this example, the `{{ text }}` expression will be replaced with the actual value of the username property defined in your **data object**.
+
+```javascript
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+      const options = {
+        data() {
+          return {
+            text: "Hello Vue Js!!",
+          };
+        },
+      };
+
+      const App = Vue.createApp(options);
+      App.mount("#app");
+    </script>
+```
+https://github.com/kantakshay/Vue-js/blob/0fb976bc473a6e17d935a4b318e642a2dadc5f62/Interpolation/Index.html#L18C1-L29C14
+
+
+
+#### Types of interpolation:
+
+- **Text Interpolation:** As shown above, you can interpolate simple text values.
+
+- **Javascript Expression:** You can use more complex expressions within the braces, involving arithmetic . 
+```HTML
+      <h1>{{2+2}}</h1>
+```
+*OUTPUT*
+
+        4
+
+
+- **Raw HTML :** To render HTML code instead of escaping it, use the `v-html` **directive** along with interpolation.
+
+
+- **Attribute Interpolation:** You can dynamically set element attributes using data expressions and the `v-bind` **directive**.
+
+> we will learn about **directive** later
+
+
+#### Benefits of interpolation:
+
+- **Reactivity**  Changes in your data are automatically reflected in the UI.
+- **Cleaner Templates:** By separating data from presentation, you keep your templates clean and organized.
+- **Dynamic Content:**  You can easily create dynamic content like lists, forms, and charts based on your data
