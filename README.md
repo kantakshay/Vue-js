@@ -204,7 +204,7 @@ Vue directives connect to the Vue instance to create dynamic and reactive user i
 
 | Directives | Details                                                                                                                                                    |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `V-bind`   | Connects an attribute in an HTML tag to a data variable inside the Vue instance.                                                                           |
+| [`V-bind`](https://github.com/kantakshay/Vue-js/blob/8aa9b91d99261e0c6d9231d93b21a98d147d985d/Directive/Index.html#L15C2-L22C11)   | Connects an attribute in an HTML tag to a data variable inside the Vue instance.                                                                           |
 | `V-html`   | It's used to dynamically insert raw HTML content into an element's innerHTML.                                                                              |
 | `V-once`   | Renders an element and its children only once, during the initial component render.                                                                        |
 | `V-if`     | Creates HTML tags depending on a condition. Directives `v-else-if` and `v-else` are used together with the `v-if` directive.                               |
@@ -240,6 +240,7 @@ The `v-bind` directive lets us bind an HTML attribute to data in the Vue instanc
     };
   },
 ```
+
 
 ### Bind style
 
@@ -311,3 +312,5 @@ The value of `v-bind:class` can be a variable:
             font-size: 50px;
         }
 ```
+
+https://github.com/kantakshay/Vue-js/blob/8aa9b91d99261e0c6d9231d93b21a98d147d985d/Directive/Index.html#L15C2-L22C11
