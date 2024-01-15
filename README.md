@@ -313,4 +313,4 @@ The value of `v-bind:class` can be a variable:
         }
 ```
 
-https://github.com/kantakshay/Vue-js/blob/8aa9b91d99261e0c6d9231d93b21a98d147d985d/Directive/Index.html#L15C2-L22C11
+[View in codes](https://github.com/kantakshay/Vue-js/blob/8aa9b91d99261e0c6d9231d93b21a98d147d985d/Directive/Index.html#L15C2-L22C11)
